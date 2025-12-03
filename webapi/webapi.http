@@ -1,0 +1,26 @@
+@webapi_HostAddress = https://localhost:7142
+
+
+
+GET {{webapi_HostAddress}}/api/todoitemsdb
+
+###
+
+POST {{webapi_HostAddress}}/api/todoitemsdb
+Content-Type: application/json
+
+{
+  
+  "name": "Ambh1"
+   
+}
+
+###
+
+DELETE {{webapi_HostAddress}}/api/todoitemsdb/Ambh2
+
+###
+
+GET {{webapi_HostAddress}}/api/todoitemsdb/Ambh2
+
+###
